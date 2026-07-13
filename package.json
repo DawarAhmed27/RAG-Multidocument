@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "crawlee": "^3.17.0",
+    "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "server": "src\\crawlers\\.venv\\Scripts\\python.exe src/crawlers/server.py",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}

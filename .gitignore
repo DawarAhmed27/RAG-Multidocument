@@ -1,0 +1,30 @@
+# Dependency folders
+node_modules/
+frontend/node_modules/
+
+# Python Virtual Environment
+.venv/
+src/crawlers/.venv/
+__pycache__/
+*/__pycache__/
+
+# Output builds
+dist/
+build/
+frontend/dist/
+
+# Large RAG indices and databases
+data/
+storage/
+*.pkl
+*.log
+
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
